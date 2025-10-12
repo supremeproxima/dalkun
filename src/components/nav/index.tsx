@@ -65,7 +65,7 @@ export default function Nav() {
         <div className="hidden md:flex p-4 gap-6">
           <Link href="https://www.facebook.com/danat.ae">
             <Image
-              src="/assets/facebook.svg"
+              src="/assets/facebook_icon.svg"
               alt="facebook"
               width={32}
               height={32}
@@ -73,7 +73,7 @@ export default function Nav() {
           </Link>
           <Link href="https://wa.me/971502617483">
             <Image
-              src="/assets/whatsapp.svg"
+              src="/assets/whatsapp_icon.svg"
               alt="whatsapp"
               width={32}
               height={32}
@@ -121,7 +121,7 @@ export default function Nav() {
           <div className="flex justify-center gap-6 p-4 border-t border-gray-200">
             <Link href="https://www.facebook.com/danat.ae">
               <Image
-                src="/assets/facebook.svg"
+                src="/assets/facebook_icon.svg"
                 alt="facebook"
                 width={32}
                 height={32}
@@ -129,7 +129,7 @@ export default function Nav() {
             </Link>
             <Link href="https://wa.me/971502617483">
               <Image
-                src="/assets/whatsapp.svg"
+                src="/assets/whatsapp_icon.svg"
                 alt="whatsapp"
                 width={32}
                 height={32}
