@@ -22,13 +22,13 @@ export default function NotFound() {
               Under Construction
             </h1>
             <p className="text-gray-600 mb-6">
-              This page is currently being built. We're working hard to bring you something amazing!
+              {`This page is currently being built. We're working hard to bring you something amazing!`}
             </p>
           </div>
           
           <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">
-              What's Coming Soon
+              {`What's Coming Soon`}
             </h2>
             <div className="space-y-3 text-left">
               <div className="flex items-center gap-3">
@@ -82,7 +82,7 @@ export default function NotFound() {
             Page Not Found
           </h2>
           <p className="text-gray-600 mb-8">
-            Sorry, we couldn't find the page you're looking for. It might have been moved, deleted, or you entered the wrong URL.
+            {`Sorry, we couldn't find the page you're looking for. It might have been moved, deleted, or you entered the wrong URL.`}
           </p>
         </div>
         
