@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/nav";
+import Nav from "@/components/molecules/nav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,10 +15,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
-    template: "%s | Danat Alkun Steel Engineering"
+    default:
+      "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
+    template: "%s | Danat Alkun Steel Engineering",
   },
-  description: "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions. Quality craftsmanship with advanced machinery.",
+  description:
+    "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions. Quality craftsmanship with advanced machinery.",
   keywords: [
     "steel fabrication",
     "steel engineering",
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
     "metal fabrication",
     "UAE steel services",
     "precision engineering",
-    "steel construction"
+    "steel construction",
   ],
   authors: [{ name: "Danat Alkun Steel Engineering" }],
   creator: "Danat Alkun Steel Engineering",
@@ -48,7 +50,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://danatalkun.com",
     title: "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
-    description: "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
+    description:
+      "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
     siteName: "Danat Alkun Steel Engineering",
     images: [
       {
@@ -62,7 +65,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
-    description: "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
+    description:
+      "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
     images: ["/assets/home/banner.svg"],
   },
   robots: {
@@ -94,42 +98,44 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Danat Alkun Steel Engineering",
-    "description": "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
-    "url": "https://danatalkun.com",
-    "logo": "https://danatalkun.com/assets/danat_logo.svg",
-    "contactPoint": {
+    name: "Danat Alkun Steel Engineering",
+    description:
+      "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
+    url: "https://danatalkun.com",
+    logo: "https://danatalkun.com/assets/danat_logo.svg",
+    contactPoint: {
       "@type": "ContactPoint",
-      "telephone": "+971 50 261 7483",
-      "contactType": "customer service",
-      "availableLanguage": ["English", "Arabic"]
+      telephone: "+971 50 261 7483",
+      contactType: "customer service",
+      availableLanguage: ["English", "Arabic"],
     },
-    "address": {
+    address: {
       "@type": "PostalAddress",
-      "addressCountry": "AE"
+      addressCountry: "AE",
     },
-    "sameAs": [
+    sameAs: [
       "https://www.facebook.com/danatalkun",
-      "https://wa.me/971502617483"
+      "https://wa.me/971502617483",
     ],
-    "service": [
+    service: [
       {
         "@type": "Service",
-        "name": "Steel Fabrication",
-        "description": "Custom steel structures and industrial fabrication services"
-      },
-      {
-        "@type": "Service", 
-        "name": "Precision Engineering",
-        "description": "High-precision steel cutting and welding services"
+        name: "Steel Fabrication",
+        description:
+          "Custom steel structures and industrial fabrication services",
       },
       {
         "@type": "Service",
-        "name": "Commercial Steel Solutions",
-        "description": "Steel construction and commercial fabrication services"
-      }
+        name: "Precision Engineering",
+        description: "High-precision steel cutting and welding services",
+      },
+      {
+        "@type": "Service",
+        name: "Commercial Steel Solutions",
+        description: "Steel construction and commercial fabrication services",
+      },
     ],
-    "openingHours": "Mo-Th 09:00-21:00, Sa-Su 09:00-18:00"
+    openingHours: "Mo-Th 09:00-21:00, Sa-Su 09:00-18:00",
   };
 
   return (
@@ -145,9 +151,10 @@ export default function RootLayout({
         className={`min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
-        <div className="mt-20 md:mt-36">
-          {children}
-        </div>
+        <div className="mt-20 md:mt-36">{children}</div>
+        <section className="flex items-center justify-center w-full max-w-screen-2xl mx-auto px-4 md:px-12 pb-8 pt-10">
+          <p className="text-xs md:text-sm text-gray-500 text-center">{`Danat Alkun © 2025. All Rights Reserved. Designed and Developed by AB Solutions Lab`}</p>
+        </section>
       </body>
     </html>
   );
