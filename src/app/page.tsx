@@ -4,18 +4,20 @@ import Image from "next/image";
 
 import Autoplay from "embla-carousel-autoplay";
 
+import Autoscroll from "@/components/molecules/autoscroll";
+import { Button } from "@/components/ui/button";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import { Button } from "@/components/ui/button";
 
 import { BannerImages, PromisesList } from "@/config/base.config";
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-start min-h-screen h-full gap-12 pb-2">
+      <Autoscroll />
       <Carousel
         plugins={[
           Autoplay({
@@ -107,13 +109,16 @@ export default function Home() {
           </section>
         </section>
       </section>
-      <section className="flex flex-col items-center justify-center w-full max-w-screen-2xl mx-auto px-4 md:px-12 py-2">
-        <p className="text-xl md:text-4xl text-stone-600 font-semibold w-full md:w-9/12 text-center md:text-left">
+      <section className="flex flex-col items-center justify-center w-full max-w-screen-2xl mx-auto px-4 md:px-12 py-2 md:w-9/12">
+        <p className="text-xl md:text-4xl text-stone-600 font-semibold w-full text-center md:text-left">
          <strong className="text-custom-green"> Made for you</strong> — from Price to Perks. Grab your Personalized Quote now.
         </p>
-      </section>
-      <section className="flex items-center justify-center w-full max-w-screen-2xl mx-auto px-4 md:px-12 py-2">
-        <p className="text-xs md:text-sm text-gray-500 text-center">{`Danat Alkun © 2025. All Rights Reserved. Designed and Developed by AB Solutions Lab`}</p>
+        <Button
+          className="bg-custom-green hover:bg-custom-green/90 text-white px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg font-normal rounded-sm mt-4 md:mt-8 self-start"
+          size="lg"
+        >
+          Request a Quote
+        </Button>
       </section>
     </section>
   );

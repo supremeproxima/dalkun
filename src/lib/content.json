@@ -1,0 +1,361 @@
+{
+  "about": {
+    "main": {
+      "heading": "About Us",
+      "sub_heading": "Home / About Us",
+      "image": "/assets/about/about_banner.svg"
+    },
+    "who_we_are": {
+      "heading": "We Are",
+      "sub_heading": "Danat Alkun",
+      "sub_title": "We are pleased to announce that",
+      "strong_text": "Zaida Services has officially changed its name to Danat Alkun / DASE.",
+      "description": "While our name has evolved, our commitment to quality, innovation, and customer satisfaction remains stronger than ever.",
+      "sub_description": [
+        {
+          "text": "Danat Alkun / DASE, established in 2018 and based in Ajman, UAE, is a reputed company specializing in fabrication services. Over the years, we have earned a strong reputation for excellence and reliability, executing numerous projects across the UAE. Our leadership team brings over 25 years of industry experience, guiding a skilled and dedicated workforce supported by experienced engineers and technicians. Operating under one roof, our Ajman-based facility houses a fully equipped workshop, state-of-the-art heavy fabrication machinery, and modern office spaces to ensure seamless coordination and efficiency."
+        },
+        {
+          "text": "At Danat Alkun / DASE, we work with passion, precision, and agility, partnering with our clients to deliver cost-effective, high-quality fabrication solutions. We take pride in our ability to transform challenges into opportunities and deliver results that exceed expectations. Danat Alkun / DASE — formerly Zaida Services — continues to build on its legacy of excellence, innovation, and trust."
+        }
+      ]
+    },
+    "our_mission": {
+      "background_image": "/assets/about/about_me_bg.svg",
+      "image": "/assets/about/owner_avatar.svg",
+      "quote": "“Highest Quality Products at Lowest Possible Prices within the required Time Frame. No compromises on the Quality of the Products.”",
+      "quote_description": "These are the main Quote by Our Founder.",
+      "sub_quote": "Mr. Vijaynagarrajan From India is the founder of Danat Alkun Steel Engineering. His passion on work and determination has made himself to start up the company in UAE. He is having 30 Years of Experience on the Mechanical Field. He has started his career from Lathe Operator. Through his hard work, Sincerity & adapting the new things, & mainly his passion towards the work bought him to this stage.",
+      "sub_quote_description": "QUALITY PRODUCTS @ NOMINAL RATE."
+    },
+    "our_vision": {
+      "image": "/assets/about/space_rocket.svg",
+      "highlight_text": "Aims",
+      "description": "to be the Best Steel Fabrication Company through Our Designing, Fabricating and Erecting by Using Advanced Technology. Satisfying the Customer with Quality, Integrity and Reliability with Technology and Services.",
+      "sub_description": [
+        {
+          "text": "To provide excellence services in Construction by frequently meeting the clients requirements of time cost and quality. Maintaining a clean and safe work environment. Updating products and process innovation improvement and training"
+        }
+      ]
+    },
+    "policy": [
+      {
+        "heading": "Purpose",
+        "description": "To Create a safe and healthy workplace and environment for Employees, Students, Visitors and other persons to a Workplace and to define duties with regard to the prevention of workplace injuries and illness."
+      },
+      {
+        "heading": "Scope",
+        "description": "This policy and procedure applies to all Employees, Contractors and Visitors at a Site or Workplace."
+      },
+      {
+        "heading": "Policy Statement",
+        "description": "Danat Alkun has an obligation to ensure the health and safety of its Employees and to ensure that its Employees including other contractors. Visitors and other persons to a Workplace are as far as Reasonably Practicable,not exposed to risks to their health and safety arising out of the work activities.\nThe ZTS is committed to achieving and maintaining a standard of excellence in the field of health and safety and aims to be recognized as a leader in safety performance within the contracting sector by providing a safe environment to work."
+      },
+      {
+        "heading": "Principles",
+        "description": "Danat Alkun will manage workplace health and safety through its Safety Management System The Safety Management System will also provide a process of continuous improvement with a focus on managing workplace risks."
+      },
+      {
+        "heading": "Responsibilities",
+        "description": "Danat Alkun requires those responsible for any activities on a Workplace to comply with the Danat Alkun Safety Management System and all relevant legislation, applicable codes of practice and standards. \n The Project manager is responsible for approving the Safety Management System. All staff and workers must exercise due diligence to ensure that the Danat Alkun complies with its duties or obligations under common law and all relevant legislation. Due diligence includes taking steps.",
+        "sub_description": [
+          "To acquire and keep up-to-date knowledge of work health and safety matters",
+          "To gain an understanding of the nature of the operations of the business or undertaking of the Danat Alkun and generally of the hazards and risks associated with those operations.",
+          "To ensure that the Danat Alkun has appropriate processes for receiving and considering information regarding incidents, hazards and risks and responding in a timely way to that information",
+          "To verify the provision and use of the resources and processes mentioned above Danat Alkun Employees, other contactors, Visitors and other persons on a Workplace are responsible for and are required",
+          "Take care for their own health and safety",
+          "Take care that their acts or omissions do not adversely affect the health and safety of other persons comply with any instruction that is given by the Danat Alkun with regards to safety",
+          "Comply with any policy or procedure of the Danat Alkun relating to health or safety at the workplace and in particular the Safety Management System",
+          "Take care that their acts or omissions do not adversely affect the health and safety of other persons",
+          "Report incidents and any unsafe conditions or issues that come to their attention"
+        ]
+      }
+    ]
+  },
+  "products": {
+    "main": {
+      "heading": "Products",
+      "sub_heading": "Home / Products",
+      "image": "/assets/products/product_banner.svg"
+    },
+    "range": {
+      "heading": "Product Range",
+      "products": [
+        {
+          "name": "Aluminium Fencing",
+          "image": "/assets/products/aluminum_fencing.svg"
+        },
+        {
+          "name": "Aluminum Bargola",
+          "image": "/assets/products/aluminum_bargola.svg"
+        },
+        {
+          "name": "Aluminum Handrails",
+          "image": "/assets/products/aluminum_handrails.svg"
+        },
+
+        {
+          "name": "Porto cabins",
+          "image": "/assets/products/porto_cabins.svg"
+        },
+        {
+          "name": "SS-4 Tier Racks",
+          "image": "/assets/products/tier_racks.svg"
+        },
+        {
+          "name": "Fencing",
+          "image": "/assets/products/fencing.svg"
+        },
+
+        {
+          "name": "Lift Shaft Gate",
+          "image": "/assets/products/lift_shaft_gate.svg"
+        },
+        {
+          "name": "SS - Pallets",
+          "image": "/assets/products/ss_pallets.svg"
+        },
+        {
+          "name": "SS - Dip Trays",
+          "image": "/assets/products/dip_trays.svg"
+        },
+
+        {
+          "name": "SS - Urinal Bowls",
+          "image": "/assets/products/urinal_bowls.svg"
+        },
+        {
+          "name": "SS - Trolleys",
+          "image": "/assets/products/trolleys.svg"
+        },
+        {
+          "name": "Rescue Cages",
+          "image": "/assets/products/rescue_cage.svg"
+        },
+
+        {
+          "name": "Crane",
+          "image": "/assets/products/crane.svg"
+        },
+        {
+          "name": "CNC Milling Machine",
+          "image": "/assets/products/cnc_milling_machine.svg"
+        },
+        {
+          "name": "Material lifting Basket",
+          "image": "/assets/products/material_lifting_basket.svg"
+        },
+
+        {
+          "name": "SS Bollard",
+          "image": "/assets/products/ss_bollard.svg"
+        },
+        {
+          "name": "Storage Rack",
+          "image": "/assets/products/storage_rack.svg"
+        },
+        {
+          "name": "Safety Pillar Guard",
+          "image": "/assets/products/safety_pillar_guard.svg"
+        },
+
+        {
+          "name": "SS - Handrails",
+          "image": "/assets/products/handrails.svg"
+        },
+        {
+          "name": "SS - Tables",
+          "image": "/assets/products/ss_table.svg"
+        },
+        {
+          "name": "All Purpose ladder",
+          "image": "/assets/products/all_purpose_ladder.svg"
+        },
+
+        {
+          "name": "SS - Star align Brick Cage",
+          "image": "/assets/products/staralign_brick_cage.svg"
+        },
+        {
+          "name": "Car Parking Sheds",
+          "image": "/assets/products/car_parking_shade.svg"
+        }
+      ]
+    },
+    "machineries": {
+      "heading": "Our",
+      "sub_heading": "Machineries",
+      "lists": [
+        {
+          "name": "Iron Worker",
+          "image": "/assets/products/machinaries/iron_worker.svg"
+        },
+        {
+          "name": "Drilling Machine",
+          "image": "/assets/products/machinaries/drilling_machine.svg"
+        },
+        {
+          "name": "Lathe Machine",
+          "image": "/assets/products/machinaries/lathe_machine.svg"
+        },
+        {
+          "name": "Plasma Cutting",
+          "image": "/assets/products/machinaries/plasma_cutting.svg"
+        },
+        {
+          "name": "Shearing Machine",
+          "image": "/assets/products/machinaries/shearing_machine.svg"
+        },
+        {
+          "name": "Arc Welding Machine",
+          "image": "/assets/products/machinaries/arc_welding_machine.svg"
+        },
+        {
+          "name": "MIG Machine",
+          "image": "/assets/products/machinaries/mig_machine.svg"
+        },
+        {
+          "name": "Power Press",
+          "image": "/assets/products/machinaries/power_press.svg"
+        },
+        {
+          "name": "Fork Lift",
+          "image": "/assets/products/machinaries/fork_lift.svg"
+        },
+        {
+          "name": "TIG Machine",
+          "image": "/assets/products/machinaries/tig_machine.svg"
+        },
+        {
+          "name": "Bending Machine",
+          "image": "/assets/products/machinaries/bending_machine.svg"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "main": {
+      "heading": "Gallery",
+      "sub_heading": "Home / Gallery",
+      "image": "/assets/gallery/gallery_banner.svg"
+    },
+    "content": {
+      "heading": "OurWorks",
+      "works": [
+        {
+          "name": "U-shaped steel safety barriers",
+          "image": "/assets/gallery/works/u_shaped_steel_safety_barriers.svg"
+        },
+        {
+          "name": "Staircase glass balustrade",
+          "image": "/assets/gallery/works/staircase_glass_balustrade.webp"
+        },
+        {
+          "name": "Steel Molds for casting Pipes",
+          "image": "/assets/gallery/works/steel_molds_for_casting_pipes.svg"
+        },
+        {
+          "name": "Concrete Bucket",
+          "image": "/assets/gallery/works/concrete_bucket.svg"
+        },
+        {
+          "name": "EOT Crane",
+          "image": "/assets/gallery/works/eot_crane.svg"
+        },
+        {
+          "name": "Metal Grate Platform",
+          "image": "/assets/gallery/works/metal_grate_platform.svg"
+        },
+        {
+          "name": "Stainless Steel Gates",
+          "image": "/assets/gallery/works/stainless_steel_gates.svg"
+        },
+        {
+          "name": "Modern SS Staircase",
+          "image": "/assets/gallery/works/modern_ss_staircase.svg"
+        },
+        {
+          "name": "Cantilever Car Parking Shade",
+          "image": "/assets/gallery/works/cantilever_car_parking_shade.svg"
+        },
+        {
+          "name": "Car Parking Shades and Pergolas",
+          "image": "/assets/gallery/works/car_parking_shades_and_pergolas.svg"
+        },
+        {
+          "name": "Mechanical Scissor Grab",
+          "image": "/assets/gallery/works/mechanical_scissor_grab.svg"
+        }
+      ],
+      "more": {
+        "name": "Many More",
+        "image": "/assets/gallery/works/view_more.webp"
+      }
+    }
+  },
+  "contact": {
+    "main": {
+      "heading": "Contact Us",
+      "sub_heading": "Home / Contact Us",
+      "image": "/assets/contact/contact_banner.svg"
+    },
+    "info": {
+      "heading": "Get In Touch",
+      "sub_heading": "We'd love to hear from you! Drop us a message and we'll get back to you soon.",
+      "details": [
+        {
+          "type": "phone",
+          "label": "Telephone",
+          "value": "+971 6 567 4647",
+          "icon": "phone"
+        },
+        {
+          "type": "mobile",
+          "label": "Mobile",
+          "value": "+971 50 261 7483",
+          "icon": "smartphone"
+        },
+        {
+          "type": "address",
+          "label": "Address",
+          "value": "Unit No.4, Plot No. 1054, Jurf Industrial Zone 2, Al Jurf, Ajman, U.A.E",
+          "icon": "map-pin"
+        },
+        {
+          "type": "email",
+          "label": "Email",
+          "value": "metalworks@d-alkun.co",
+          "secondary_value": "danatalkuneng@gmail.com",
+          "icon": "mail"
+        }
+      ]
+    },
+    "form": {
+      "title": "Send us a Message",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Email"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Phone number"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Message"
+        }
+      },
+      "submit_text": "Submit"
+    },
+    "map": {
+      "title": "Find Us",
+      "location": "Jurf Industrial Zone 2, Al Jurf, Ajman, U.A.E",
+      "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.1234567890!2d55.1234567890!3d25.1234567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1234567890ab%3A0x1234567890abcdef!2sJurf%20Industrial%20Zone%202!5e0!3m2!1sen!2sae!4v1234567890123!5m2!1sen!2sae"
+    }
+  }
+}

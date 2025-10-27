@@ -9,12 +9,16 @@ export const NavOptions = [
     href: "/",
   },
   {
+    label: "About Us",
+    href: "/about",
+  },
+  {
     label: "Products",
     href: "/products",
   },
   {
-    label: "About Us",
-    href: "/about-us",
+    label: "Gallery",
+    href: "/gallery",
   },
   {
     label: "Contact Us",
