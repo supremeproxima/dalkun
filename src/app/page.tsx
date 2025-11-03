@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 import Autoplay from "embla-carousel-autoplay";
 
@@ -43,12 +44,14 @@ export default function Home() {
                     <p className="text-sm md:text-lg text-white/90 leading-relaxed font-light w-full md:w-2/3">
                       {image.description}
                     </p>
-                    <Button
-                      className="bg-custom-green hover:bg-custom-green/90 text-white px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg font-normal rounded-sm"
-                      size="lg"
-                    >
-                      Request a Quote
-                    </Button>
+                    <Link href="/contact-us">
+                        <Button
+                        className="bg-custom-green hover:bg-custom-green/90 text-white px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg font-normal rounded-sm"
+                        size="lg"
+                      >
+                        Request a Quote
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -100,12 +103,14 @@ export default function Home() {
             <p className="text-lg lg:text-2xl xl:text-3xl text-white">
               All kinds of steel fabrication.
             </p>
-            <Button
+            <Link href="/contact-us">
+              <Button
               className="bg-custom-green hover:bg-custom-green/90 text-white px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg font-normal rounded-sm mt-4 md:mt-8"
               size="lg"
             >
               Contact Us
             </Button>
+            </Link>
           </section>
         </section>
       </section>
@@ -113,12 +118,14 @@ export default function Home() {
         <p className="text-xl md:text-4xl text-stone-600 font-semibold w-full text-center md:text-left">
          <strong className="text-custom-green"> Made for you</strong> — from Price to Perks. Grab your Personalized Quote now.
         </p>
-        <Button
+        <Link href="/contact-us">
+          <Button
           className="bg-custom-green hover:bg-custom-green/90 text-white px-4 md:px-6 py-2 md:py-3 text-sm md:text-lg font-normal rounded-sm mt-4 md:mt-8 self-start"
           size="lg"
         >
           Request a Quote
         </Button>
+        </Link>
       </section>
     </section>
   );

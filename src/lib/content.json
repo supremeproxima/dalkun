@@ -9,7 +9,7 @@
       "heading": "We Are",
       "sub_heading": "Danat Alkun",
       "sub_title": "We are pleased to announce that",
-      "strong_text": "Zaida Services has officially changed its name to Danat Alkun / DASE.",
+      "strong_text": "Zaida Technical Services (ZTS) has officially changed its name to Danat Alkun Steel Engineering S.P.S - L.L.C (DASE).",
       "description": "While our name has evolved, our commitment to quality, innovation, and customer satisfaction remains stronger than ever.",
       "sub_description": [
         {
@@ -112,20 +112,20 @@
           "image": "/assets/products/lift_shaft_gate.svg"
         },
         {
-          "name": "SS - Pallets",
+          "name": "Pallets",
           "image": "/assets/products/ss_pallets.svg"
         },
         {
-          "name": "SS - Dip Trays",
+          "name": "Dip Trays",
           "image": "/assets/products/dip_trays.svg"
         },
 
         {
-          "name": "SS - Urinal Bowls",
+          "name": "Urinal Bowls",
           "image": "/assets/products/urinal_bowls.svg"
         },
         {
-          "name": "SS - Trolleys",
+          "name": "SS/MS - Trolleys",
           "image": "/assets/products/trolleys.svg"
         },
         {
@@ -138,7 +138,7 @@
           "image": "/assets/products/crane.svg"
         },
         {
-          "name": "CNC Milling Machine",
+          "name": "All type of machining works",
           "image": "/assets/products/cnc_milling_machine.svg"
         },
         {
@@ -147,7 +147,7 @@
         },
 
         {
-          "name": "SS Bollard",
+          "name": "Bollard",
           "image": "/assets/products/ss_bollard.svg"
         },
         {
@@ -160,20 +160,20 @@
         },
 
         {
-          "name": "SS - Handrails",
+          "name": "SS/MS/Aluminium - Handrails",
           "image": "/assets/products/handrails.svg"
         },
         {
-          "name": "SS - Tables",
+          "name": "Tables",
           "image": "/assets/products/ss_table.svg"
         },
         {
-          "name": "All Purpose ladder",
-          "image": "/assets/products/all_purpose_ladder.svg"
+          "name": "Glass Balustrade & Glass Partition",
+          "image": "/assets/products/glass_balustrade_glass_partition.webp"
         },
 
         {
-          "name": "SS - Star align Brick Cage",
+          "name": "Star align Brick Cage",
           "image": "/assets/products/staralign_brick_cage.svg"
         },
         {
@@ -267,11 +267,11 @@
           "image": "/assets/gallery/works/metal_grate_platform.svg"
         },
         {
-          "name": "Stainless Steel Gates",
+          "name": "Automatic Sliding / Swing Gates",
           "image": "/assets/gallery/works/stainless_steel_gates.svg"
         },
         {
-          "name": "Modern SS Staircase",
+          "name": "Modern Staircase",
           "image": "/assets/gallery/works/modern_ss_staircase.svg"
         },
         {
@@ -355,7 +355,7 @@
     "map": {
       "title": "Find Us",
       "location": "Jurf Industrial Zone 2, Al Jurf, Ajman, U.A.E",
-      "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.1234567890!2d55.1234567890!3d25.1234567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1234567890ab%3A0x1234567890abcdef!2sJurf%20Industrial%20Zone%202!5e0!3m2!1sen!2sae!4v1234567890123!5m2!1sen!2sae"
+      "embed_url": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3603.0164975040434!2d55.55102207538959!3d25.43771197755693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI2JzE1LjgiTiA1NcKwMzMnMTMuMCJF!5e0!3m2!1sen!2sin!4v1762192644127!5m2!1sen!2sin"
     }
   }
 }

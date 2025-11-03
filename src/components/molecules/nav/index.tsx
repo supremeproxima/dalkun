@@ -63,7 +63,7 @@ export default function Nav() {
         
         {/* Desktop social links */}
         <div className="hidden md:flex p-4 gap-6">
-          <Link href="https://www.facebook.com/danat.ae">
+          <Link href="https://www.facebook.com/share/19iPHseUKP/" target="_blank">
             <Image
               src="/assets/facebook_icon.svg"
               alt="facebook"
@@ -71,7 +71,7 @@ export default function Nav() {
               height={32}
             />
           </Link>
-          <Link href="https://wa.me/971502617483">
+          <Link href="https://wa.me/971502617483?text=Hello, I am interested in your services. Please call me back." target="_blank">
             <Image
               src="/assets/whatsapp_icon.svg"
               alt="whatsapp"
