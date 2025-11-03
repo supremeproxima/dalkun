@@ -80,7 +80,7 @@ export async function POST(req: Request) {
     await Promise.all([transporter.sendMail(ownerMail), transporter.sendMail(userMail)]);
 
     return NextResponse.json({ ok: true });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("Contact API error:", err);
     return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
   }

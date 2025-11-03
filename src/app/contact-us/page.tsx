@@ -66,7 +66,7 @@ export default function ContactPage() {
 
       setStatus("success");
       setFormData({ name: "", email: "", phone: "", message: "" });
-    } catch (err) {
+    } catch {
       setErrorMsg("Network or server error.");
       setStatus("error");
     }
