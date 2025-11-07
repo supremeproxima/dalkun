@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: "Danat Alkun Steel Engineering",
     images: [
       {
-        url: "/assets/danat_logo.svg",
+        url: "https://d-alkun.com/assets/danat_logo.svg",
         width: 1200,
         height: 630,
         alt: "Danat Alkun Steel Engineering - Professional Steel Fabrication",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
     description:
       "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
-    images: ["/assets/danat_logo.svg"],
+    images: ["https://d-alkun.com/assets/danat_logo.svg"],
   },
   robots: {
     index: true,
@@ -84,8 +84,11 @@ export const metadata: Metadata = {
     google: "google-verification-code", // Replace with actual verification code
   },
   icons: {
-    icon: "/assets/danat_logo.svg",
-    shortcut: "/assets/danat_logo.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/assets/danat_logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
     apple: "/assets/danat_logo.svg",
   },
 };
