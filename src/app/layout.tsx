@@ -41,21 +41,21 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://danatalkun.com"),
+  metadataBase: new URL("https://d-alkun.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://danatalkun.com",
+    url: "https://d-alkun.com",
     title: "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
     description:
       "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
     siteName: "Danat Alkun Steel Engineering",
     images: [
       {
-        url: "/assets/home/banner.svg",
+        url: "/assets/danat_logo.svg",
         width: 1200,
         height: 630,
         alt: "Danat Alkun Steel Engineering - Professional Steel Fabrication",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Danat Alkun Steel Engineering - Premium Steel Fabrication Services",
     description:
       "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
-    images: ["/assets/home/banner.svg"],
+    images: ["/assets/danat_logo.svg"],
   },
   robots: {
     index: true,
@@ -81,12 +81,12 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code", // Replace with actual verification code
+    google: "google-verification-code", // Replace with actual verification code
   },
   icons: {
-    icon: "/icon.svg",
-    shortcut: "/icon.svg",
-    apple: "/icon.svg",
+    icon: "/assets/danat_logo.svg",
+    shortcut: "/assets/danat_logo.svg",
+    apple: "/assets/danat_logo.svg",
   },
 };
 
@@ -101,8 +101,8 @@ export default function RootLayout({
     name: "Danat Alkun Steel Engineering",
     description:
       "Professional steel fabrication services in UAE. Precision engineering, custom steel structures, industrial fabrication, and commercial steel solutions.",
-    url: "https://danatalkun.com",
-    logo: "https://danatalkun.com/assets/danat_logo.svg",
+    url: "https://d-alkun.com",
+    logo: "https://d-alkun.com/assets/danat_logo.svg",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+971 50 261 7483",
@@ -114,7 +114,7 @@ export default function RootLayout({
       addressCountry: "AE",
     },
     sameAs: [
-      "https://www.facebook.com/danatalkun",
+      "https://www.facebook.com/d-alkun",
       "https://wa.me/971502617483",
     ],
     service: [
