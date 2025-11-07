@@ -11,6 +11,7 @@ export default function ProductsPage() {
           src={products.main.image}
           alt="Products"
           width={100}
+          loading="lazy"
           height={100}
           className="w-full h-full object-fill"
         />
@@ -41,6 +42,7 @@ export default function ProductsPage() {
                 src={product.image}
                 alt={product.name}
                 width={100}
+                loading="lazy"
                 height={100}
                 className="object-contain w-60 h-52"
               />
@@ -68,8 +70,9 @@ export default function ProductsPage() {
             >
               <Image
                 src={product.image}
-                alt="Machinery"
+                alt={product.name}
                 width={100}
+                loading="lazy"
                 height={100}
                 className="object-contain w-10/12 h-10/12 transition-transform duration-300 group-hover:scale-105"
               />

@@ -42,6 +42,7 @@ export default function Nav() {
             src="/assets/danat_logo.svg"
             alt="logo"
             width={100}
+            loading="lazy"
             height={100}
             className="w-16 h-16 md:w-20 md:h-20"
           />
@@ -69,6 +70,7 @@ export default function Nav() {
               alt="facebook"
               width={32}
               height={32}
+              loading="lazy"
             />
           </Link>
           <Link href="https://wa.me/971502617483?text=Hello, I am interested in your services. Please call me back." target="_blank">
@@ -77,6 +79,7 @@ export default function Nav() {
               alt="whatsapp"
               width={32}
               height={32}
+              loading="lazy"
             />
           </Link>
         </div>
@@ -125,6 +128,7 @@ export default function Nav() {
                 alt="facebook"
                 width={32}
                 height={32}
+                loading="lazy"
               />
             </Link>
             <Link href="https://wa.me/971502617483">
@@ -133,6 +137,7 @@ export default function Nav() {
                 alt="whatsapp"
                 width={32}
                 height={32}
+                loading="lazy"
               />
             </Link>
           </div>

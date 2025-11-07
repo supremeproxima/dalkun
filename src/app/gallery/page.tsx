@@ -11,6 +11,7 @@ export default function GalleryPage() {
           src={gallery.main.image}
           alt="Gallery"
           width={100}
+          loading="lazy"
           height={100}
           className="w-full h-full object-fill"
         />
@@ -39,6 +40,7 @@ export default function GalleryPage() {
                 src={work.image}
                 alt={work.name}
                 width={100}
+                loading="lazy"
                 height={100}
                 className="w-full h-full object-cover max-h-[300px]"
                 quality={100}
@@ -55,6 +57,7 @@ export default function GalleryPage() {
               src={gallery.content.more.image}
               alt={gallery.content.more.name}
               width={100}
+              loading="lazy"
               height={100}
               className="w-full h-full object-cover"
               quality={100}
