@@ -12,6 +12,7 @@ export default function ProductsPage() {
           alt="Products"
           width={100}
           loading="lazy"
+          priority
           height={100}
           className="w-full h-full object-fill"
         />

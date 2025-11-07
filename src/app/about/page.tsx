@@ -19,6 +19,7 @@ export default function AboutPage() {
           alt="About Us"
           width={100}
           loading="lazy"
+          priority
           height={100}
           className="w-full h-full object-fill"
         />

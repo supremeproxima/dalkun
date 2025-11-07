@@ -81,6 +81,7 @@ export default function ContactPage() {
           alt="Contact"
           width={100}
           loading="lazy"
+          priority
           height={100}
           className="w-full h-full object-fill"
         />
