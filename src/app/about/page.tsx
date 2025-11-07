@@ -18,6 +18,7 @@ export default function AboutPage() {
           src={about.main.image}
           alt="About Us"
           width={100}
+          loading="lazy"
           height={100}
           className="w-full h-full object-fill"
         />
@@ -54,6 +55,7 @@ export default function AboutPage() {
             src="/assets/about/steel_steps.svg"
             className="h-full w-full max-w-[340px] max-h-[340px]"
             width={100}
+            loading="lazy"
             height={100}
             alt="Steps"
           />
@@ -61,6 +63,7 @@ export default function AboutPage() {
             src="/assets/about/storage_tank.svg"
             className="h-full w-full max-w-[240px] max-h-[240px] absolute top-7/12 left-[65%]"
             width={100}
+            loading="lazy"
             height={100}
             alt="Steps"
           />
@@ -77,6 +80,7 @@ export default function AboutPage() {
           src={about.our_mission.background_image}
           alt="Our Mission"
           width={100}
+          loading="lazy"
           height={100}
           className="w-full h-full object-cover relative z-0 hidden md:block"
         />
@@ -85,6 +89,7 @@ export default function AboutPage() {
             src={about.our_mission.image}
             alt="Our Mission"
             width={100}
+            loading="lazy"
             height={100}
             className="w-full h-full object-cover relative z-10"
           />
@@ -105,6 +110,7 @@ export default function AboutPage() {
             src={about.our_vision.image}
             alt="Space Rocket"
             width={100}
+            loading="lazy"
             height={100}
             className="w-full h-full object-cover relative z-0"
           />

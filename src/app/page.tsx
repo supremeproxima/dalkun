@@ -36,6 +36,7 @@ export default function Home() {
                   src={image.src}
                   alt={image.alt}
                   width={1920}
+                  loading="lazy"
                   height={1080}
                 />
                 <div className="absolute top-1/2 left-4 md:left-8 transform -translate-y-1/2 max-w-3xl px-4 md:px-0">
@@ -71,6 +72,7 @@ export default function Home() {
                 alt={promise.title}
                 width={100}
                 height={100}
+                loading="lazy"
                 className="w-16 h-16 md:w-20 md:h-20 -ml-1"
               />
               <h2 className="text-xl md:text-2xl font-bold">{promise.title}</h2>
@@ -84,6 +86,7 @@ export default function Home() {
           src="/assets/home/section_banner.svg"
           alt="section banner"
           width={100}
+          loading="lazy"
           height={120}
           className="w-full h-64 md:h-full relative z-0 object-cover"
         />
@@ -93,6 +96,7 @@ export default function Home() {
             objectFit="cover"
             alt="Owner"
             width={100}
+            loading="lazy"
             height={120}
             className="w-80 h-[calc(100%+110px)] z-10 hidden md:block"
           />
