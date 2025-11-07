@@ -37,6 +37,7 @@ export default function Home() {
                   alt={image.alt}
                   width={1920}
                   loading="lazy"
+                  priority
                   height={1080}
                 />
                 <div className="absolute top-1/2 left-4 md:left-8 transform -translate-y-1/2 max-w-3xl px-4 md:px-0">
