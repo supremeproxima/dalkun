@@ -80,7 +80,6 @@ export default function ContactPage() {
           src={contact.main.image}
           alt="Contact"
           width={100}
-          loading="lazy"
           priority
           height={100}
           className="w-full h-full object-fill"
