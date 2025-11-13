@@ -11,7 +11,6 @@ export default function ProductsPage() {
           src={products.main.image}
           alt="Products"
           width={100}
-          loading="lazy"
           priority
           height={100}
           className="w-full h-full object-fill"

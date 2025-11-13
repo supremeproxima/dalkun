@@ -11,7 +11,6 @@ export default function GalleryPage() {
           src={gallery.main.image}
           alt="Gallery"
           width={100}
-          loading="lazy"
           priority
           height={100}
           className="w-full h-full object-fill"

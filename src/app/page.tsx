@@ -36,7 +36,6 @@ export default function Home() {
                   src={image.src}
                   alt={image.alt}
                   width={1920}
-                  loading="lazy"
                   priority
                   height={1080}
                 />
